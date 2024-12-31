@@ -9,7 +9,7 @@ Pytorch实现“猫狗分类” (新手入门超详细注释)
 
 https://www.kaggle.com/c/dogs-vs-cats/data
 
-下载好的数据集按下面的结构配置，从上到下的顺序分别执行文件
+下载好的数据集按以下结构配置，从上到下的顺序分别执行文件
 
 CatVsDog
 
@@ -21,17 +21,17 @@ CatVsDog
 
 │  predict.py 预测
 
-├─predict	 Kaggle下载的test1文件夹改了个名字
+├─predict	 下载的数据集test1文件夹改了个名字
 
-├─train		 Kaggle下载的train里面分成两个文件
+├─train		 下载的数据集train里面分成两个文件
 
 │  ├─cat
 
 │  └─dog
 
-└─test		Kaggle下载的train分出来的（我分出来了猫狗各2500张）
-
-    ├─cat
+└─test		 下载的数据集train分出来的（我分出来了猫狗各2500张）
     
-    └─dog
+│  ├─cat
+
+│  └─dog
     
